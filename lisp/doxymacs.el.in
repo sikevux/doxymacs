@@ -1449,7 +1449,7 @@ where:
      (if next-func
 	 (list
 	  'l
-	  "/** " '> 'n
+	  "/**" '> 'n
 	  " * " 'p '> 'n
 	  " *" '> 'n
 	  (doxymacs-parm-tempo-element (cdr (assoc 'args next-func)))
